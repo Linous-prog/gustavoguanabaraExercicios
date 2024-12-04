@@ -1,0 +1,5 @@
+salario = float(input('Qual é o salário do funcionário? R$'))
+aumento = salario + (salario * 15 / 100 )
+desconto = aumento - (salario * 8 / 100 )
+print(f'Um funcionário que ganhava {salario:.2f}, com 15 % de aumento, passa a receber R$ {aumento:.2f}')
+print(f"Com o desconto de 8 %, passa a receber R$s {desconto:.2f}! ")
